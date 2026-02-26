@@ -1,40 +1,34 @@
-# Customer Registration 
+# 📍 Cadastro de Clientes - Integração com API ViaCEP
 
-![Project Status](https://img.shields.io/badge/Status-Finished-green)
+![Status](https://img.shields.io/badge/Status-Finalizado-green)
 
-## 📝 Description
+Este repositório contém o projeto final desenvolvido para a conclusão do Módulo 6 do **BootCamp DevJr by Abútua**. A aplicação consiste em um sistema de cadastro onde, ao informar um CEP brasileiro, os campos de endereço são preenchidos automaticamente através de uma requisição a uma API externa.
 
-This project was developed as the final assignment to complete the `BootCamp DevJr by Abútua` module 6. The application is a web page that allows the user to enter a Brazilian ZIP code (CEP) and, through a request to an external API, automatically fills in the address fields (street, neighborhood, city, and state).
+## 🚀 Principais Aprendizados
 
-The main goal was to apply the knowledge acquired throughout the course in a practical way, integrating front-end technologies to create a functional and user-friendly solution.
+O desenvolvimento deste projeto foi fundamental para aplicar de forma prática os conhecimentos de front-end e integração de dados:
 
----
+- 📡 **Consumo de API Externa**: Implementação de requisições à API do **ViaCEP** para busca de dados em tempo real, um conceito essencial para aplicações full-stack modernas.
+- ⚡ **JavaScript e DOM**: Uso de JavaScript para manipulação dinâmica de elementos da página, garantindo que o endereço fosse preenchido sem a necessidade de recarregar a tela.
+- 🎨 **Estilização com Bootstrap**: Utilização do **Bootstrap** (meu padrão de design) para criar uma interface limpa, amigável e totalmente responsiva, adaptando-se a desktops e dispositivos móveis.
+- 🛡️ **Validação de Dados**: Implementação de feedbacks visuais para informar o usuário sobre CEPs inválidos ou erros na busca.
 
-## ✨ Key Features
+## 🛠️ Tecnologias Utilizadas
 
-* **ZIP Code Lookup:** A form to input a ZIP code.
-* **Autocomplete:** Address fields are automatically filled after a successful lookup.
-* **Simple Validation:** Provides visual feedback to the user in case of an invalid ZIP code.
-* **Responsive Layout:** The interface adapts to different screen sizes (desktop and mobile) thanks to Bootstrap.
+- **Linguagem**: JavaScript (ES6+).
+- **Estruturação**: HTML5.
+- **Design/UI**: Bootstrap 5.
+- **API de Terceiros**: ViaCEP.
 
----
+## 📌 Resultado Final
 
-## 🚀 Technologies Used
+Abaixo, você pode conferir o funcionamento da aplicação:
 
-* **HTML5:** For structuring the page.
-* **Bootstrap 5:** A framework for building a responsive layout and visual components.
-* **JavaScript:** For DOM manipulation, request logic, and user interaction.
-* **API:** `ViaCEP` for address lookups.
-
----
-## 📌 Final Result
 ![resultado_final](https://github.com/kauanzin222/bootcamp-devjr-modulo6-CostumerRegistration/blob/main/images/final_result.gif)
 
+## 🎓 Contexto e Evolução
+
+Este projeto representa o encerramento de mais um módulo de estudos, aproximando-me do meu objetivo de atuar como **Desenvolvedor Full-Stack**. A organização e o fluxo de dados aqui aplicados servem de base para sistemas mais complexos que venho desenvolvendo na **Fatec Sorocaba**.
+
 ---
-
-## 👨🏻‍💻 Author
-
-Developed by **Kauã Cardoso**.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/kauã-cardoso-25259b2b3)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kauanzin222)
+*Projeto desenvolvido para fins de estudo e aperfeiçoamento técnico. 📚*
